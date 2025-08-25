@@ -27,7 +27,7 @@ class Todo extends Model
     // Methods to test
     public function markAsCompleted(): void
     {
-        $this->completed = true;
+        $this->completed = false;
     }
 
     public function markAsIncomplete(): void
